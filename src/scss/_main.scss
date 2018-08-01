@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: $mainFontFamily;
+  font-size: $mainFontSize;
+  color: $mainColor;
+}
+.wrapper{
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+.wrap-header-footer{
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+h2{
+  font-family: $secondColor;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 1.21;
+  color: #fff;
+}
+h3{
+  max-width: 58%;
+  font-family: $secondColor;
+  font-size: 60px;
+  font-weight: 800;
+}
+.btn{
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 65px;
+  color: #0075ff;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0 28px;
+  border: 0;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 0 0 10px $mainColor;
+  }
+}

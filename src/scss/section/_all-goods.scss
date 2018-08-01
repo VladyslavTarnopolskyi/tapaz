@@ -1,0 +1,14 @@
+.all-goods{
+  background: #fddd37 url("../img/fill.png") 100% 50px no-repeat;
+  .wrapper{
+    padding-top: 220px;
+    display: flex;
+    .notebook{
+      margin-left: -110px;
+    }
+    h3{
+      padding-left: 50px;
+      font-size: 55px;
+    }
+  }
+}

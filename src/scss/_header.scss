@@ -1,0 +1,14 @@
+.header{
+  background: #0075ff;
+  .wrap-header-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px;
+    .azrbaycanca{
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+}

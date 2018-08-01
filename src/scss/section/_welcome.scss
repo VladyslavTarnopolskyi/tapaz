@@ -1,0 +1,21 @@
+.welcome{
+  background: #0075ff;
+  padding-top: 75px;
+  .wrapper{
+    background:  url("../img/rocket.png") 100% 0 no-repeat;
+  }
+  h2{
+    max-width: 70%;
+    padding-bottom: 20px;
+  }
+  p{
+    max-width: 454px;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #fff;
+    padding-bottom: 50px;
+  }
+  .btn {
+    margin-bottom: 120px;
+  }
+}

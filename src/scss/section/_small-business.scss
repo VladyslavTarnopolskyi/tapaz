@@ -1,0 +1,38 @@
+.small-business{
+  background: #fff;
+  padding-bottom: 20px;
+  h3{
+    padding: 80px 0;
+  }
+  .business-services-list{
+    display: flex;
+    flex-wrap: wrap;
+    .services-list-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 220px;
+      margin-right: 160px;
+      margin-bottom: 60px;
+      &:nth-child(3n){
+        margin-right: 0;
+      }
+      .img{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .head-list-item{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.25;
+        color: #0075ff;
+        padding-bottom: 10px;
+      }
+      p{
+        line-height: 1.38;
+      }
+    }
+  }
+}
