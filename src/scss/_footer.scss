@@ -1,0 +1,29 @@
+.footer{
+  .wrap-header-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 15px;
+    a{
+      color: #9b9b9b;
+    }
+    .about{
+      display: flex;
+      li{
+        padding-left: 70px;
+        a:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .social{
+      display: flex;
+      li{
+        padding-left: 60px;
+        .fab:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

@@ -48,7 +48,7 @@ body {
 
 h2 {
   font-family: Raleway, Arial, sans-serif;
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 900;
   line-height: 1.21;
   color: #fff; }
@@ -91,7 +91,7 @@ h3 {
   .welcome .wrapper {
     background: url(img/rocket.png) 100% 0 no-repeat; }
   .welcome h2 {
-    max-width: 70%;
+    width: 70%;
     padding-bottom: 20px; }
   .welcome p {
     max-width: 454px;
@@ -143,3 +143,141 @@ h3 {
     .all-goods .wrapper h3 {
       padding-left: 50px;
       font-size: 55px; }
+    .all-goods .wrapper img {
+      width: 100%; }
+
+.feedback {
+  background: #0075ff; }
+  .feedback .wrapper {
+    display: flex;
+    padding-top: 125px;
+    padding-bottom: 140px; }
+    .feedback .wrapper h2 {
+      width: 575px; }
+    .feedback .wrapper .feedback-form {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      padding-top: 60px;
+      padding-left: 80px; }
+      .feedback .wrapper .feedback-form p {
+        font-size: 20px;
+        padding-bottom: 20px; }
+      .feedback .wrapper .feedback-form input {
+        max-width: 446px;
+        font-size: 23px;
+        border: 0;
+        border-radius: 3px;
+        background-color: #2d8dff;
+        padding: 15px;
+        margin-bottom: 15px; }
+        .feedback .wrapper .feedback-form input::placeholder {
+          color: #fff; }
+      .feedback .wrapper .feedback-form .submit-btn {
+        text-align: center;
+        margin: 20px; }
+
+.footer .wrap-header-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 15px; }
+  .footer .wrap-header-footer a {
+    color: #9b9b9b; }
+  .footer .wrap-header-footer .about {
+    display: flex; }
+    .footer .wrap-header-footer .about li {
+      padding-left: 70px; }
+      .footer .wrap-header-footer .about li a:hover {
+        text-decoration: underline; }
+  .footer .wrap-header-footer .social {
+    display: flex; }
+    .footer .wrap-header-footer .social li {
+      padding-left: 60px; }
+      .footer .wrap-header-footer .social li .fab:hover {
+        transform: scale(1.2); }
+
+@media (max-width: 1024px) {
+  .small-business .business-services-list {
+    flex-wrap: wrap; }
+    .small-business .business-services-list .services-list-item {
+      margin-right: 80px; }
+      .small-business .business-services-list .services-list-item:nth-child(3n) {
+        margin-right: 80px; }
+  .all-goods .wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    align-items: center; }
+    .all-goods .wrapper .notebook {
+      text-align: center;
+      margin-left: 0; }
+    .all-goods .wrapper h3 {
+      max-width: 100%;
+      text-align: center;
+      padding-left: 0; }
+    .all-goods .wrapper img {
+      width: 100%; }
+  .feedback .wrapper {
+    display: flex;
+    flex-direction: column; }
+    .feedback .wrapper h2 {
+      width: 100%;
+      text-align: center; }
+    .feedback .wrapper .feedback-form {
+      margin: 0 auto;
+      padding: 60px 15px 15px; }
+  .footer .wrap-header-footer .about li {
+    padding-left: 30px; }
+  .footer .wrap-header-footer .social li {
+    padding-left: 20px; } }
+
+@media (max-width: 768px) {
+  .small-business h3 {
+    max-width: 100%;
+    text-align: center; }
+  .small-business .business-services-list {
+    justify-content: space-around; }
+  .footer .wrap-header-footer {
+    flex-direction: column; }
+    .footer .wrap-header-footer h1 {
+      padding-bottom: 30px; }
+    .footer .wrap-header-footer .about {
+      padding-bottom: 30px; } }
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 50px; }
+  h3 {
+    font-size: 40px; }
+  .all-goods .wrapper h3 {
+    font-size: 40px; }
+  .small-business .business-services-list .services-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0; }
+    .small-business .business-services-list .services-list-item:nth-child(3n) {
+      margin-right: 0; }
+    .small-business .business-services-list .services-list-item .img {
+      margin: 0 auto;
+      padding-bottom: 25px; }
+  .footer .wrap-header-footer .about {
+    flex-direction: column;
+    text-align: center; }
+    .footer .wrap-header-footer .about li {
+      padding-bottom: 15px; } }
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 35px; }
+  h3 {
+    font-size: 30px; }
+  .header .wrap-header-footer {
+    flex-direction: column; }
+  .all-goods .wrapper h3 {
+    font-size: 30px; }
+  .feedback .wrapper .feedback-form input {
+    max-width: 260px;
+    font-size: 16px; } }
