@@ -277,7 +277,11 @@ h3 {
   .header .wrap-header-footer {
     flex-direction: column; }
   .all-goods .wrapper h3 {
-    font-size: 30px; }
-  .feedback .wrapper .feedback-form input {
-    max-width: 260px;
-    font-size: 16px; } }
+    font-size: 30px; } }
+
+@media (max-width: 320px) {
+  .feedback .wrapper .feedback-form {
+    align-items: center; }
+    .feedback .wrapper .feedback-form input {
+      max-width: 260px;
+      font-size: 16px; } }
